@@ -6,15 +6,17 @@
       "horizontal_offset": 0,
       "vertical_offset": 0,
       "segments": [
-
-     
         {
           "type": "session",
           "style": "diamond",
           "foreground": "#262b44",
           "background": "#f77622",
           "leading_diamond": "\uE0B6",
-          "trailing_diamond": "\uE0B0"
+          "trailing_diamond": "\uE0B0",
+		  "properties": {
+            "prefix": "",
+            "display_host":false
+          }
         },
         {
           "background": "#feae34",
